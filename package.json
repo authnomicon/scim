@@ -1,0 +1,42 @@
+{
+  "name": "authnomicon-scim",
+  "version": "0.0.0",
+  "description": "SCIM components for the Authnomicon project.",
+  "keywords": [
+    "scim"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/authnomicon/scim.git"
+  },
+  "bugs": {
+    "url": "http://github.com/authnomicon/scim/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./app",
+  "assembly": {
+    "namespace": "org.authnomicon/scim/v1",
+    "components": [
+      "http/service"
+    ]
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^2.0.0",
+    "chai": "^3.0.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
