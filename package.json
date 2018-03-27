@@ -1,5 +1,5 @@
 {
-  "name": "authnomicon-scim",
+  "name": "@authnomicon/scim",
   "version": "0.0.0",
   "description": "SCIM components for the Authnomicon project.",
   "keywords": [
